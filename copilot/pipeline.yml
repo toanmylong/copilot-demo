@@ -1,7 +1,7 @@
 # This YAML file defines the relationship and deployment ordering of your environments.
 
 # The name of the pipeline
-name: pipeline-toan-copilot-demo
+name: pipeline-demo-copilot-demo
 
 # The version of the schema used in this template
 version: 1
@@ -14,7 +14,7 @@ source:
   # the artifacts should be sourced from. For example, the GitHub provider
   # has the following properties: repository, branch.
   properties:
-    branch: master
+    branch: main
     repository: https://github.com/toanmylong/copilot-demo
     # Optional: specify the name of an existing CodeStar Connections connection.
     # connection_name: a-connection
